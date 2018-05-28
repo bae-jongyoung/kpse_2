@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/button0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:text="- 정지 -"
+            tools:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="0"
+            tools:textSize="44sp"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/seek_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:max="100"
+            android:progress="1" />
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="송영 - 찬양하라 내영혼아"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="기도송 - 우리 기도를"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="아멘"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="끝송 - 너는 시냇가에 심은 나무라"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="내가 그리스도와 함께"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="오 나의 자비로운 주여"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/extra_path"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="0"
+            tools:textSize="44sp"
+            />
+
+        <Button
+            android:id="@+id/button11"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="외장폴더_song01.mp3"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button12"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="외장폴더_song02.mp3"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button13"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="외장폴더_song03.mp3"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button14"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="외장폴더_song04.mp3"
+            tools:ignore="MissingConstraints"
+            tools:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
